@@ -18,5 +18,5 @@ while True:
 
 
 print("---- THANK YOU ----")
-print()
-print("Things", f"{items}")
+print("Your final cart:", items)
+print("Total items:", len(items))
