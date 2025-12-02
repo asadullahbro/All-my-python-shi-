@@ -32,7 +32,7 @@ while True:
         title = input("Enter your Song's Title: ").strip()
         if title in playlist:
             print(f"{title} is in your playlist, sung by {playlist[title]}.")
-    if choice == 5:
+    elif choice == 5:
         print("Stopping the program.. have a nice day!")
         break
     playlist = {}
